@@ -10,17 +10,21 @@ namespace Snake
     {
         static void Main(string[] args)
         {
-            int x1 = 1;
-            int y1 = 3;
-            char chr = '*';
-            print(x1, y1, chr);
+            point p1 = new point();
+            p1.x = 1;
+            p1.y = 3;
+            p1.chr = '*';
+            p1.drow();
+
+            point p2 = new point();
+            p2.x = 5;
+            p2.y = 6;
+            p2.chr = '#';
+            p2.drow();
+
             Console.ReadKey();
         }
-        static void print(int x, int y, char chr)
-        {
-            Console.SetCursorPosition(x, y);
-            Console.Write(chr);
-        }
+       
        
     }
 }
