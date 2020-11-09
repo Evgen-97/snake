@@ -1,0 +1,7 @@
+C:\Users\sheff\OneDrive\Рабочий стол\Git\snake\snake\Snake\Snake\bin\Debug\Snake.exe.config
+C:\Users\sheff\OneDrive\Рабочий стол\Git\snake\snake\Snake\Snake\bin\Debug\Snake.exe
+C:\Users\sheff\OneDrive\Рабочий стол\Git\snake\snake\Snake\Snake\bin\Debug\Snake.pdb
+C:\Users\sheff\OneDrive\Рабочий стол\Git\snake\snake\Snake\Snake\obj\Debug\Snake.csprojAssemblyReference.cache
+C:\Users\sheff\OneDrive\Рабочий стол\Git\snake\snake\Snake\Snake\obj\Debug\Snake.csproj.CoreCompileInputs.cache
+C:\Users\sheff\OneDrive\Рабочий стол\Git\snake\snake\Snake\Snake\obj\Debug\Snake.exe
+C:\Users\sheff\OneDrive\Рабочий стол\Git\snake\snake\Snake\Snake\obj\Debug\Snake.pdb
