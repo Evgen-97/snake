@@ -33,17 +33,21 @@ namespace Snake
             Vline1.Drow();
             Vline2.Drow();
 
-            //snake Snake = new snake(p1, 5, direct.ringht);
-            //Snake.Drow();
-            //Snake.move();
-            //Thread.Sleep(400);            Snake.move();
-            //Thread.Sleep(400);            Snake.move();
-            //Thread.Sleep(400);            Snake.move();
-            //Thread.Sleep(400);            Snake.move();
-            //Thread.Sleep(400);            Snake.move();
-            //Thread.Sleep(400);
+            snake Snake = new snake(p1, 5, direct.ringht);
+            Snake.Drow();
+            while(true)
+            {
+                if (Console.KeyAvailable)
+                {
+                    ConsoleKeyInfo key = Console.ReadKey();
+                    Snake.hendl(key.Key);
+                }
+                Thread.Sleep(100);
+                Snake.move();
+            }
+           
 
-            Console.ReadKey();
+        
         }
    
     }

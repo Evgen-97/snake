@@ -10,7 +10,7 @@ namespace Snake
   
     class snake : Figere
     {
-        direct dir;
+       public direct dir;
         public snake (point Start,int length,direct _dir)
         {
            
@@ -41,6 +41,13 @@ namespace Snake
             plist.Add(next);
             next.move(1, dir);
             return next;
+        }
+        public void hendl (ConsoleKey key)
+        {
+            if (key == ConsoleKey.LeftArrow) dir = direct.left;
+            if (key == ConsoleKey.RightArrow) dir = direct.ringht;
+            if (key == ConsoleKey.UpArrow) dir = direct.up;
+            if (key == ConsoleKey.DownArrow) dir = direct.down;
         }
     }
 }

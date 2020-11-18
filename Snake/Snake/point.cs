@@ -31,10 +31,10 @@ namespace Snake
             switch (dir)
             {
                 case direct.up:
-                    this.y += offer;
+                    this.y -= offer;
                     break;
                 case direct.down:
-                    this.y -= offer;
+                    this.y += offer;
                     break;
                 case direct.left:
                     this.x -= offer;
